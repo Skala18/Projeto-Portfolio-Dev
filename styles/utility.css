@@ -1,0 +1,110 @@
+.grid {
+  display: grid;
+}
+
+
+#my-work, #my-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+#my-work {
+  padding-bottom: 9rem;
+  .grid-work {
+    grid-template-columns: 20.625rem 20.625rem 20.625rem;
+    gap: 1.5rem 1.5rem;
+  }
+}
+
+#my-services {
+  width: 100%;
+  padding-inline: 7.5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 7.5rem;
+  gap: 1.5rem;
+  background-color: var(--base-gray-100);
+
+  .grid-service {
+    grid-template-columns: 17.5rem 17.5rem 17.5rem;
+    gap: 1.5rem;
+  }
+
+  .jujubinhas {
+    display: grid;
+    gap: 1.25rem;
+    width: 17.5rem;
+    border: solid 1px var(--base-gray-200);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+
+
+    div {
+      display: grid;
+      gap: .5rem;
+    }
+
+  }
+  
+  
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  p {
+    all: unset;
+    font: var(--subtitle);
+    color: var(--main-red);
+  }
+}
+
+#works {
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+.card {
+  max-width: 20.625rem;
+  padding-inline: .75rem;
+  padding-top: .75rem;
+  padding-bottom: 1.0625rem;
+  border: solid 1px transparent;
+  border-radius: .75rem;
+  background-color: var(--base-gray-300);
+
+  .featured {
+  display: grid;
+  gap: 1.25rem;
+    
+    img {
+      max-width: 19.125rem;
+      border-radius: .5rem;
+    }
+  
+    .cardinfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: .5rem;
+      
+    }
+
+
+  }
+
+  &:hover {
+    outline: solid 1.5px #878EA1;
+  }
+}

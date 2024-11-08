@@ -1,0 +1,57 @@
+main {
+  width: 100%;
+  background-image: url(/assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-content {
+  margin-inline: 10.1875rem;
+  margin-top: 7.5rem;
+  margin-bottom: 5.875rem;
+  
+  img {
+    display: flex;
+    justify-self: center;
+    
+  }
+}
+
+.stackylouco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin-bottom: 5rem;
+  
+
+  span {
+    color: var(--main-red);
+  }
+
+  h1 {
+    margin-bottom: 1.25rem;
+  }
+
+  p {
+    color: var(--base-gray-400);
+  }
+}
+
+.left-pocket-dogshit {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.wet-balls {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  padding-block: .5rem;
+  padding-inline: 1rem;
+
+  border-radius: 999px;
+  background-color: var(--base-gray-300);
+}
+
